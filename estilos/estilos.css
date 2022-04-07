@@ -1,0 +1,647 @@
+* {
+margin: 0;
+font-family: 'DM Sans', sans-serif;
+width: 100%;
+}
+
+html 
+{     
+font-size: 62,5%; 
+}
+
+.parallax
+{
+background-attachment: fixed;
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 400px;
+}
+
+.parallax--img1
+{
+background-image:url("../imagenes/parallaxescudo1.jpg") ;
+}
+
+.parallax--img2
+{
+background-image:url("../imagenes/parallax2.jpg") ;
+
+}
+
+.parallax--img3
+{
+background-image:url("../imagenes/parallax32.jpg") ;
+min-height: 360px;
+}
+
+.parallax--img4
+{background-image:url("../imagenes/ilustracion\ deportesagua.jpg" );min-height: 400px;}
+
+
+a
+{
+text-decoration: none;
+}
+
+.menu
+{
+background-color: rgb(88, 177, 225);
+display: flex;
+justify-content: center;
+}
+
+.menu nav a
+{
+font-size: 1.5rem;
+color: aliceblue;
+margin: 0.5rem;
+}
+
+header
+{
+top: 0;
+position: absolute;
+position: sticky;
+width: 100%;
+}
+
+body
+{
+background-color:rgb(236, 187, 63) ;
+}
+
+.mapa
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+.mainaviso
+{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.aviso
+{
+display: flex;
+flex-direction: column;
+border: solid 0.2rem;
+background-color: darkgrey;
+}
+
+
+.aviso p
+{
+line-height: 4rem;
+font-size: 1rem;
+text-decoration: underline;
+}
+
+.aviso h3
+{
+font-size: 2rem;
+text-decoration: underline;
+
+}
+
+.aviso ol
+{
+padding: 0%;
+}
+
+.aviso ol li
+{
+font-size: 1rem;
+line-height: 3rem;
+display: flex;
+align-self: center;
+margin: 0.2rem;
+}
+
+
+footer
+{
+font-size: 1.2rem;
+line-height: 2rem;
+}
+
+input
+{
+padding: 0.5rem;
+padding-top: 0.3rem;
+width: auto;
+}
+
+
+.historiatexto
+{
+line-height: 2rem;
+}
+
+main ul
+{
+line-height: 2rem;
+}
+
+
+.paginaprincipal
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 0.fr 1fr 1.1fr 1fr 0.1fr;
+gap: 0px 0px;
+grid-template-areas:
+"nav nav nav nav"
+"pllx pllx pllx pllx"
+"texto texto mapa mapa"
+"pllxo pllxo pllxo pllxo"
+"footer footer footer footer";
+}
+
+
+.navegador
+{
+grid-area: nav;
+}
+
+.parallax--img1
+{
+grid-area: pllx;
+}
+
+.avisoimportante
+{
+grid-area: texto;
+}
+
+.mapaimportante
+{
+grid-area: mapa;
+align-self: center;
+display: flex;
+justify-content: center;
+height: 400px;
+width: 100%;
+}
+
+.parallax--img2
+{
+grid-area: pllxo;
+}
+
+.footerimportante
+{
+grid-area: footer;
+padding: 1rem;
+}
+
+
+.paginahistoria
+{
+display: grid;
+grid-template-columns: 1.1fr 0.9fr 1fr 1fr;
+grid-template-rows: 0.1fr 1.5fr 1.5fr 1.fr 0.1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"nav nav nav nav"
+"tx-magallanes tx-magallanes img-magallanes img-magallanes"
+"tx-darwin tx-darwin img-darwin img-darwin"
+"tx-ria tx-ria img-ria img-ria"
+"footer-historia footer-historia footer-historia footer-historia";
+}
+
+.tx-magallanes
+{ grid-area: tx-magallanes;
+align-self: center;
+}
+
+.nav
+{ grid-area: nav;
+}
+
+.img-magallanes
+{
+grid-area: img-magallanes;
+align-self: center;
+justify-self: center;
+}
+
+.tx-darwin
+{ grid-area: tx-darwin;
+align-self: center;
+}
+
+.tx-ria
+{ grid-area: tx-ria;
+align-self: center;
+}
+
+.img-darwin
+{ grid-area: img-darwin;
+align-self: center;
+justify-self: center;
+}
+
+.img-ria
+{ grid-area: img-ria;
+align-self: center;
+justify-self: center;
+}
+
+.footer-historia
+{ grid-area: footer-historia;
+padding: 1rem;
+}
+
+
+.paginahoteles
+{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.1fr 0.5fr 1fr 0.4fr 0.1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"navhoteles"
+"tx-hoteles"
+"parallax-hoteles"
+"tx-restaurantes"
+"footer-hoteles";
+}
+
+.navhoteles 
+{ grid-area: navhoteles;
+}
+
+.tx-hoteles
+{ grid-area: tx-hoteles;
+padding: 1.5rem;
+}
+
+.parallax-hoteles
+{ grid-area: parallax-hoteles; 
+}
+
+.tx-restaurantes
+{ grid-area: tx-restaurantes;
+padding:  1.5rem;
+}
+
+.footer-hoteles
+{ grid-area: footer-hoteles; 
+padding: 1rem;
+}
+
+
+.paginaactividades
+{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0fr 1fr 0.7fr 0.1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"nav"
+"parallax-actividades"
+"tx-actividades"
+"footer-actividades";
+}
+
+.footer-actividades
+{ grid-area: footer-actividades;
+padding: 1rem;
+}
+
+.nav
+{ grid-area: nav;
+}
+
+.parallax-actividades
+{ grid-area: parallax-actividades; 
+}
+
+.tx-actividades
+{ grid-area: tx-actividades;
+display: flex;
+align-self: center;
+padding: 1.5rem;
+}
+
+
+.paginacontacto
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 0.2fr 1fr 1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"nav5 nav5"
+"formulario5 video5"
+"footer5 footer5";
+}
+
+.nav5
+{ 
+grid-area: nav5; 
+}
+
+.formulario5
+{
+grid-area: formulario5;
+}
+
+.video5
+{
+grid-area: video5;
+}
+
+.footer5
+{
+grid-area: footer5;
+}
+
+
+
+
+
+@media screen and (max-width: 1023px)
+{
+.paginaprincipal
+{
+background-color: rgb(223, 229, 233);
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 0.fr 1fr 1.1fr 1fr 0.1fr;
+gap: 0px 0px;
+grid-template-areas:
+"nav nav nav"
+"pllx pllx pllx"
+"texto texto texto"
+"mapa mapa mapa"
+"pllxo pllxo pllxo"
+"footer footer footer";
+}
+.avisoimportante
+{
+justify-content: center;
+}
+
+
+/* mediaqueries historia */
+
+.paginahistoria
+{
+background-color: rgb(223, 229, 233);
+display: grid;
+grid-template-columns: 1.1fr 1fr;
+grid-template-rows: 0.1fr 1.5fr 1.5fr 1.fr 0.1fr 1fr 1fr 1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-template-areas:
+"nav nav "
+"tx-magallanes tx-magallanes" 
+"img-magallanes img-magallanes"
+"tx-darwin tx-darwin" 
+"img-darwin img-darwin"
+"tx-ria tx-ria" 
+"img-ria img-ria"
+"footer-historia footer-historia";
+}
+
+.tx-magallanes h1
+{
+font-size: 1.2rem;
+}
+
+.tx-magallanes p
+{
+font-size: 0.8rem;
+}
+.tx-darwin
+{
+font-size: 0.8rem;
+}
+
+.tx-ria
+{
+font-size: 0.8rem;
+}
+
+/* mediaqueries hoteles */
+
+.paginahoteles
+{
+background-color: rgb(223, 229, 233)
+}
+
+
+/* mediaqueries actividades */
+
+.paginaactividades
+{
+background-color: rgb(223, 229, 233)
+}
+
+/* mediaqueries contacto*/
+
+
+
+.paginacontacto {
+background-color: rgb(223, 229, 233);
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.2fr 0.8fr 0.5fr 0.1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"nav5"
+"formulario5"
+"video5"
+"footer5";
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px)
+{
+.paginaprincipal
+{
+background-color: rgb(121, 121, 121);
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 0.fr 1fr 1.1fr 1fr 0.1fr;
+gap: 0px 0px;
+grid-template-areas:
+"nav nav"
+"pllx pllx"
+"texto texto"
+"mapa mapa"
+"pllxo pllxo"
+"footer footer";
+}
+
+
+.mapa
+{
+width: 100%;
+}
+
+.aviso p 
+{
+font-size: 0.6rem;
+line-height: 1.4rem;
+}
+.aviso h3
+{
+font-size: 0.8rem;
+}
+
+.aviso ol li
+{
+font-size: 0.6rem;
+line-height: 1.2rem;
+
+}
+
+footer h3
+{
+font-size: 0.8rem;
+margin: 0.2rem;
+}
+
+footer p
+{
+font-size: 0.6rem;
+line-height: 0.8rem;
+}
+
+.menu nav a
+{
+font-size: 0.6rem;
+color: rgb(8, 8, 8);
+margin: 0.2rem;
+}
+
+.parallax
+{width: 100%;min-height: 300px;}
+
+/* mediaqueries historia */
+
+.paginahistoria
+{
+background-color: rgb(121, 121, 121);
+display: grid;
+grid-template-columns: 1.1fr 1fr;
+grid-template-rows: 0.1fr 1.5fr 1.5fr 1.fr 0.1fr 1fr 1fr 1fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-template-areas:
+"nav nav "
+"tx-magallanes tx-magallanes" 
+"img-magallanes img-magallanes"
+"tx-darwin tx-darwin" 
+"img-darwin img-darwin"
+"tx-ria tx-ria" 
+"img-ria img-ria"
+"footer-historia footer-historia"
+}
+
+.tx-magallanes h1
+{
+font-size: 0.8rem;
+}
+
+.tx-magallanes p
+{
+font-size: 0.6rem;
+}
+.tx-darwin
+{
+font-size: 0.6rem;
+}
+
+.tx-ria
+{
+font-size: 0.6rem;
+}
+
+.img-magallanes
+{
+width: auto;
+}
+
+.img-darwin
+{
+width: auto;
+}
+
+.img-ria
+{
+width: auto;
+}
+
+/* mediaqueries hoteles */
+
+.paginahoteles
+{
+background-color: rgb(121, 121, 121);
+}
+
+.tx-hoteles h1
+{
+font-size: 0.9rem;
+}
+
+.tx-hoteles h2
+{
+font-size: 0.8rem;
+}
+
+.tx-hoteles ul
+{
+font-size: 0.6rem;
+}
+
+.tx-restaurantes h2
+{
+font-size: 0.8rem;
+}
+
+.tx-restaurantes ul
+{
+font-size: 0.6rem;
+}
+
+
+/* mediaqueries actividades */
+
+.paginaactividades
+{
+background-color: rgb(121, 121, 121);
+}
+
+
+/* mediaqueries contacto */
+
+.paginacontacto
+{
+background-color: rgb(121, 121, 121);
+}
+}
