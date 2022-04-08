@@ -58,6 +58,10 @@ color: aliceblue;
 margin: 0.5rem;
 }
 
+.menu nav a:hover
+{
+color: black;
+}
 header
 {
 top: 0;
@@ -68,7 +72,8 @@ width: 100%;
 
 body
 {
-background-color:rgb(236, 187, 63) ;
+background: rgb(120,93,5);
+background: linear-gradient(0deg, rgba(120,93,5,1) 0%, rgba(255,214,45,1) 100%);
 }
 
 .mapa
@@ -137,6 +142,10 @@ padding-top: 0.3rem;
 width: auto;
 }
 
+input:focus
+{
+background-color: rgb(182, 181, 181);
+}
 
 .historiatexto
 {
@@ -148,6 +157,32 @@ main ul
 line-height: 2rem;
 }
 
+.img-magallanes
+{
+filter: grayscale(100%);
+}
+.img-magallanes:hover
+{
+filter: none;
+}
+
+.img-darwin
+{
+filter: grayscale(100%);
+}
+.img-darwin:hover
+{
+filter: none;
+}
+
+.img-ria
+{
+filter: grayscale(100%);
+}
+.img-ria:hover
+{
+filter: none;
+}
 
 .paginaprincipal
 {
@@ -471,10 +506,6 @@ grid-template-areas:
 "footer5";
 }
 }
-
-
-
-
 
 
 
