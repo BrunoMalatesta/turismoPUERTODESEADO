@@ -1,0 +1,27 @@
+header
+{
+top: 0;
+position: absolute;
+position: sticky;
+width: 100%;
+a
+{
+text-decoration: none;
+}
+.menu
+{
+background-color: rgb(88, 177, 225);
+display: flex;
+justify-content: center;
+    & nav a
+{
+font-size: 1.5rem;
+color: aliceblue;
+margin: 0.5rem;
+    &:hover
+{
+color: rgb(0, 0, 0);
+}
+}
+}
+}

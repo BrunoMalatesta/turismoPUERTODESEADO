@@ -1,0 +1,8 @@
+.listaactividades li
+{
+    transition: transform .2s;
+        &:hover
+        {
+            color: red;
+}
+}

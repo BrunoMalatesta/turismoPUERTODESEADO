@@ -1,0 +1,49 @@
+
+
+
+
+
+
+.avisoimportante
+{
+background-color: darkgrey;
+.mainaviso
+{
+width: 100%;
+display: flex;
+justify-content: center;
+.aviso
+{
+display: flex;
+flex-direction: column;
+border: solid 0.2rem;
+background-color: darkgrey;
+    ol li
+{
+font-size: 1rem;
+line-height: 3rem;
+display: flex;
+align-self: center;
+margin: 0.2rem;
+}
+}
+    p
+{
+line-height: 4rem;
+font-size: 1rem;
+text-decoration: underline;
+}
+    h3
+{
+font-size: 2rem;
+text-decoration: underline;
+}
+}
+}
+.mapa
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}

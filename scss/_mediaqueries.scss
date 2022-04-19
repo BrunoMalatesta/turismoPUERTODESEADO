@@ -1,0 +1,133 @@
+@media screen and (max-width: 1023px)
+{
+.paginaprincipal
+{
+background-color: rgb(223, 229, 233);
+.avisoimportante
+{
+justify-content: center;
+}
+}
+.paginahistoria
+{
+background-color: rgb(223, 229, 233);
+.tx-magallanes h1
+{
+font-size: 1.2rem;
+p
+{
+font-size: 0.8rem;
+}
+}
+.tx-darwin
+{
+font-size: 0.8rem;
+}
+.tx-ria
+{
+font-size: 0.8rem;
+}
+}
+.paginahoteles
+{
+background-color: rgb(223, 229, 233)
+}
+.paginaactividades
+{
+background-color: rgb(223, 229, 233)
+}
+.paginacontacto {
+background-color: rgb(223, 229, 233);
+}
+}
+@media screen and (max-width: 767px)
+{
+.paginaprincipal
+{
+background-color: rgb(121, 121, 121);
+.mapa
+{
+width: 100%;
+}
+.avisoimportante
+{
+h3
+{
+font-size: 0.8rem;
+}
+p 
+{
+font-size: 0.6rem;
+line-height: 1.4rem;
+}
+ol li
+{
+font-size: 0.6rem;
+line-height: 1.2rem;
+}
+}
+}
+.menu nav a
+{
+font-size: 0.6rem;
+color: rgb(8, 8, 8);
+margin: 0.2rem;
+}
+.parallax
+{
+width: 100%;
+min-height: 300px;
+}
+.paginahistoria
+{
+background-color: rgb(121, 121, 121);
+.tx-magallanes h1
+{
+font-size: 0.8rem;
+p
+{
+font-size: 0.6rem;
+}
+}
+.tx-darwin
+{
+font-size: 0.6rem;
+}
+.tx-ria
+{
+font-size: 0.6rem;
+}
+}
+.paginahoteles
+{
+background-color: rgb(121, 121, 121);
+.tx-hoteles h1
+{
+font-size: 0.9rem;
+h2
+{
+font-size: 0.8rem;
+}
+ul
+{
+font-size: 0.6rem;
+}
+}
+.tx-restaurantes h2
+{
+font-size: 0.8rem;
+ul
+{
+font-size: 0.6rem;
+}
+}
+}
+.paginaactividades
+{
+background-color: rgb(121, 121, 121);
+}
+.paginacontacto
+{
+background-color: rgb(121, 121, 121);
+}
+}

@@ -1,0 +1,262 @@
+.listaactividades li {
+  transition: transform .2s; }
+  .listaactividades li:hover {
+    color: red; }
+
+.title-word {
+  animation: color-animation 4s linear infinite; }
+
+.title-word-1 {
+  --color-1: #fdfdfd;
+  --color-2: #047db1;
+  --color-3: #000000; }
+
+.title-word-2 {
+  --color-1: #fdfdfd;
+  --color-2: #047db1;
+  --color-3: #000000; }
+
+.title-word-3 {
+  --color-1: #fdfdfd;
+  --color-2: #047db1;
+  --color-3: #000000; }
+
+.title-word-4 {
+  --color-1: #fdfdfd;
+  --color-2: #047db1;
+  --color-3: #000000; }
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1); }
+  32% {
+    color: var(--color-1); }
+  33% {
+    color: var(--color-2); }
+  65% {
+    color: var(--color-2); }
+  66% {
+    color: var(--color-3); }
+  99% {
+    color: var(--color-3); }
+  100% {
+    color: var(--color-1); } }
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh; }
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase; }
+
+.video {
+  width: 100%; }
+
+input {
+  padding: 0.5rem;
+  padding-top: 0.3rem;
+  width: auto; }
+  input:focus {
+    background-color: #b6b5b5; }
+
+.paginahistoria .historiatexto {
+  line-height: 2rem; }
+
+.paginahistoria main ul {
+  line-height: 2rem; }
+
+.paginahistoria .img-magallanes {
+  filter: grayscale(100%);
+  align-self: center;
+  display: flex;
+  justify-content: center; }
+  .paginahistoria .img-magallanes:hover {
+    filter: none; }
+
+.paginahistoria img {
+  max-width: 100%; }
+
+.paginahistoria .img-darwin {
+  filter: grayscale(100%);
+  align-self: center;
+  display: flex;
+  justify-content: center; }
+  .paginahistoria .img-darwin:hover {
+    filter: none; }
+
+.paginahistoria .img-ria {
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center; }
+  .paginahistoria .img-ria:hover {
+    filter: none; }
+
+.paginahistoria .phistoria {
+  padding: 0.6rem; }
+
+.paginahistoria .hhistoria {
+  padding: 0.3rem; }
+
+.avisoimportante {
+  background-color: darkgrey; }
+  .avisoimportante .mainaviso {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .avisoimportante .mainaviso .aviso {
+      display: flex;
+      flex-direction: column;
+      border: solid 0.2rem;
+      background-color: darkgrey; }
+      .avisoimportante .mainaviso .aviso ol li {
+        font-size: 1rem;
+        line-height: 3rem;
+        display: flex;
+        align-self: center;
+        margin: 0.2rem; }
+    .avisoimportante .mainaviso p {
+      line-height: 4rem;
+      font-size: 1rem;
+      text-decoration: underline; }
+    .avisoimportante .mainaviso h3 {
+      font-size: 2rem;
+      text-decoration: underline; }
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; }
+
+.zoom {
+  transition: transform .2s; }
+  .zoom:hover {
+    transform: scale(1.2); }
+
+header {
+  top: 0;
+  position: absolute;
+  position: sticky;
+  width: 100%; }
+  header a {
+    text-decoration: none; }
+  header .menu {
+    background-color: #58b1e1;
+    display: flex;
+    justify-content: center; }
+    header .menu nav a {
+      font-size: 1.5rem;
+      color: aliceblue;
+      margin: 0.5rem; }
+      header .menu nav a:hover {
+        color: black; }
+
+@media screen and (max-width: 1023px) {
+  .paginaprincipal {
+    background-color: #dfe5e9; }
+    .paginaprincipal .avisoimportante {
+      justify-content: center; }
+  .paginahistoria {
+    background-color: #dfe5e9; }
+    .paginahistoria .tx-magallanes h1 {
+      font-size: 1.2rem; }
+      .paginahistoria .tx-magallanes h1 p {
+        font-size: 0.8rem; }
+    .paginahistoria .tx-darwin {
+      font-size: 0.8rem; }
+    .paginahistoria .tx-ria {
+      font-size: 0.8rem; }
+  .paginahoteles {
+    background-color: #dfe5e9; }
+  .paginaactividades {
+    background-color: #dfe5e9; }
+  .paginacontacto {
+    background-color: #dfe5e9; } }
+
+@media screen and (max-width: 767px) {
+  .paginaprincipal {
+    background-color: #797979; }
+    .paginaprincipal .mapa {
+      width: 100%; }
+    .paginaprincipal .avisoimportante h3 {
+      font-size: 0.8rem; }
+    .paginaprincipal .avisoimportante p {
+      font-size: 0.6rem;
+      line-height: 1.4rem; }
+    .paginaprincipal .avisoimportante ol li {
+      font-size: 0.6rem;
+      line-height: 1.2rem; }
+  .menu nav a {
+    font-size: 0.6rem;
+    color: #080808;
+    margin: 0.2rem; }
+  .parallax {
+    width: 100%;
+    min-height: 300px; }
+  .paginahistoria {
+    background-color: #797979; }
+    .paginahistoria .tx-magallanes h1 {
+      font-size: 0.8rem; }
+      .paginahistoria .tx-magallanes h1 p {
+        font-size: 0.6rem; }
+    .paginahistoria .tx-darwin {
+      font-size: 0.6rem; }
+    .paginahistoria .tx-ria {
+      font-size: 0.6rem; }
+  .paginahoteles {
+    background-color: #797979; }
+    .paginahoteles .tx-hoteles h1 {
+      font-size: 0.9rem; }
+      .paginahoteles .tx-hoteles h1 h2 {
+        font-size: 0.8rem; }
+      .paginahoteles .tx-hoteles h1 ul {
+        font-size: 0.6rem; }
+    .paginahoteles .tx-restaurantes h2 {
+      font-size: 0.8rem; }
+      .paginahoteles .tx-restaurantes h2 ul {
+        font-size: 0.6rem; }
+  .paginaactividades {
+    background-color: #797979; }
+  .paginacontacto {
+    background-color: #797979; } }
+
+html {
+  min-height: 100%; }
+
+* {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif; }
+
+html {
+  font-size: 62,5%; }
+
+body {
+  background: #785d05;
+  background: linear-gradient(0deg, #785d05 0%, #ffd62d 100%); }
+
+.parallax {
+  background-attachment: fixed;
+  width: 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px; }
+
+.parallax--img1 {
+  background-image: url("../imagenes/parallaxescudo1.jpg"); }
+
+.parallax--img2 {
+  background-image: url("../imagenes/parallax2.jpg"); }
+
+.parallax--img3 {
+  background-image: url("../imagenes/parallax32.jpg");
+  min-height: 360px; }
+
+.parallax--img4 {
+  background-image: url("../imagenes/ilustracion deportesagua.jpg");
+  min-height: 400px; }

@@ -6,3 +6,47 @@
 @import "footer";
 @import "header";
 @import "mediaqueries";
+
+html
+{
+min-height: 100%;
+}
+* {
+margin: 0;
+font-family: 'DM Sans', sans-serif;
+}
+html 
+{     
+font-size: 62,5%; 
+}
+body
+{
+background: rgb(120,93,5);
+background: linear-gradient(0deg, rgba(120,93,5,1) 0%, rgba(255,214,45,1) 100%);
+}
+
+.parallax
+{
+background-attachment: fixed;
+width: 100%;
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 400px;
+}
+.parallax--img1
+{
+background-image:url("../imagenes/parallaxescudo1.jpg") ;
+}
+.parallax--img2
+{
+background-image:url("../imagenes/parallax2.jpg") ;
+
+}
+.parallax--img3
+{
+background-image:url("../imagenes/parallax32.jpg") ;
+min-height: 360px;
+}
+.parallax--img4
+{background-image:url("../imagenes/ilustracion\ deportesagua.jpg" );min-height: 400px;}

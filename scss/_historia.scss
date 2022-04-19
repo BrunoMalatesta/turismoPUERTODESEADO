@@ -1,0 +1,55 @@
+.paginahistoria{
+.historiatexto
+{
+line-height: 2rem;
+}
+main ul
+{
+line-height: 2rem;
+}
+.img-magallanes
+{
+filter: grayscale(100%);
+align-self: center;
+display: flex;
+justify-content: center;
+    &:hover
+{
+filter: none;
+}
+
+}
+img
+{
+max-width: 100%;
+}
+.img-darwin
+{
+filter: grayscale(100%);
+align-self: center;
+display: flex;
+justify-content: center;
+    &:hover
+{
+filter: none;
+}
+}
+.img-ria
+{
+filter: grayscale(100%);
+display: flex;
+justify-content: center;
+    &:hover
+{
+filter: none;
+}
+}
+.phistoria
+{
+padding: 0.6rem;
+}
+.hhistoria
+{
+padding: 0.3rem;
+}
+}
