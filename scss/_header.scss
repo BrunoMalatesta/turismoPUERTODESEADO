@@ -8,14 +8,14 @@ a
 {
 text-decoration: none;
 }
-.menu
+.navegador
 {
 background-color: rgb(88, 177, 225);
 display: flex;
 justify-content: center;
-    & nav a
-{
 font-size: 1.5rem;
+a
+{
 color: aliceblue;
 margin: 0.5rem;
     &:hover
