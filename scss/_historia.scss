@@ -1,8 +1,5 @@
-.paginahistoria{
-.historiatexto
+.paginahistoria
 {
-line-height: 2rem;
-}
 main ul
 {
 line-height: 2rem;
@@ -44,12 +41,18 @@ justify-content: center;
 filter: none;
 }
 }
+.textohistoria{
+    font-size: 2rem;
+}
 .phistoria
 {
+font-size: small;
 padding: 0.6rem;
 }
-.hhistoria
+.historiatexto
 {
-padding: 0.3rem;
+    font-size: 2rem;
 }
+
+padding: 0.3rem;
 }
