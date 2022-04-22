@@ -4,9 +4,8 @@ main ul
 {
 line-height: 2rem;
 }
-.img-magallanes
-{
-filter: grayscale(100%);
+.img--ria{
+    filter: grayscale(100%);
 align-self: center;
 display: flex;
 justify-content: center;
@@ -14,33 +13,21 @@ justify-content: center;
 {
 filter: none;
 }
-
 }
+.img-magallanes
+{
+    @extend .img--ria
+}
+
 img
 {
 max-width: 100%;
 }
 .img-darwin
 {
-filter: grayscale(100%);
-align-self: center;
-display: flex;
-justify-content: center;
-    &:hover
-{
-filter: none;
+@extend .img--ria
 }
-}
-.img-ria
-{
-filter: grayscale(100%);
-display: flex;
-justify-content: center;
-    &:hover
-{
-filter: none;
-}
-}
+
 .textohistoria{
     font-size: 2rem;
 }

@@ -102,31 +102,16 @@ input {
 .paginahistoria main ul {
   line-height: 2rem; }
 
-.paginahistoria .img-magallanes {
+.paginahistoria .img--ria, .paginahistoria .img-magallanes, .paginahistoria .img-darwin {
   filter: grayscale(100%);
   align-self: center;
   display: flex;
   justify-content: center; }
-  .paginahistoria .img-magallanes:hover {
+  .paginahistoria .img--ria:hover, .paginahistoria .img-magallanes:hover, .paginahistoria .img-darwin:hover {
     filter: none; }
 
 .paginahistoria img {
   max-width: 100%; }
-
-.paginahistoria .img-darwin {
-  filter: grayscale(100%);
-  align-self: center;
-  display: flex;
-  justify-content: center; }
-  .paginahistoria .img-darwin:hover {
-    filter: none; }
-
-.paginahistoria .img-ria {
-  filter: grayscale(100%);
-  display: flex;
-  justify-content: center; }
-  .paginahistoria .img-ria:hover {
-    filter: none; }
 
 .paginahistoria .textohistoria {
   font-size: 2rem; }
