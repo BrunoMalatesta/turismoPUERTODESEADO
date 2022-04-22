@@ -82,6 +82,23 @@ input {
   input:focus {
     background-color: #b6b5b5; }
 
+.a--whatsapp {
+  background-color: #128C7E; }
+
+.a--telegram {
+  background-color: #229ED9; }
+
+.a--mensaje {
+  background-color: white; }
+
+.uno {
+  width: 50%;
+  color: #fdfdfd;
+  font-size: xx-large;
+  font-style: oblique;
+  text-decoration: none;
+  text-align: center; }
+
 .paginahistoria main ul {
   line-height: 2rem; }
 

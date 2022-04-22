@@ -64,3 +64,29 @@ width: auto;
 background-color: rgb(182, 181, 181);
 }
 }
+
+
+
+$contactodirecto:(
+whatsapp: #128C7E,
+telegram: #229ED9,
+mensaje: white,
+);
+
+@each $contactodirecto, $color in $contactodirecto{
+.a--#{$contactodirecto}
+{
+background-color: $color;
+}
+}
+
+.uno{
+width: 50%;
+color: #fdfdfd;
+font-size: xx-large;
+font-style: oblique;
+text-decoration: none;
+text-align: center;
+}
+
+
