@@ -126,7 +126,7 @@ input {
 .historiamagallanes {
   font-size: 2.7rem;
   color: #2b5b92;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center; }
@@ -136,7 +136,7 @@ input {
 .historiadarwin {
   font-size: 2.5rem;
   color: #189ac2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center; }
@@ -146,7 +146,7 @@ input {
 .historiaria {
   font-size: 2rem;
   color: #f1f4f8;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center; }
