@@ -1,0 +1,29 @@
+@mixin Hotelesycomida ($fsize,$color)
+{
+    font-size: $fsize;
+    color: $color;
+    text-decoration: none;
+}
+
+.invitacion
+{
+    @include Hotelesycomida(2.7rem, rgb(241, 244, 248))
+}
+
+.hoteles
+{
+    @include Hotelesycomida(2.5rem,rgb(43, 91, 146))
+}
+
+.comida{
+    @include Hotelesycomida(2rem,rgb(24, 154, 194))
+}
+
+.listahotelescomida li
+{
+    transition: transform .2s;
+    &:hover
+    {
+        color: rgb(42, 176, 230);
+}
+}

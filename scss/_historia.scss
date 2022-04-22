@@ -5,18 +5,18 @@ main ul
 line-height: 2rem;
 }
 .img--ria{
-    filter: grayscale(100%);
+filter: grayscale(100%);
 align-self: center;
 display: flex;
 justify-content: center;
-    &:hover
+&:hover
 {
 filter: none;
 }
 }
 .img-magallanes
 {
-    @extend .img--ria
+@extend .img--ria
 }
 
 img
@@ -29,7 +29,7 @@ max-width: 100%;
 }
 
 .textohistoria{
-    font-size: 2rem;
+font-size: 2rem;
 }
 .phistoria
 {
@@ -38,6 +38,29 @@ padding: 0.6rem;
 }
 .historiatexto
 {
-    font-size: 2rem;
+font-size: 2rem;
 }
+}
+
+@mixin titulos ($fsize, $color){
+    font-size:$fsize ;
+    color: $color;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    transition: transform .2s;
+    text-align: center;
+    &:hover 
+{
+transform: scale(1.1); 
+}
+}
+
+.historiamagallanes{
+    @include titulos(2.7rem,rgb(43, 91, 146))
+}
+.historiadarwin{
+    @include titulos(2.5rem,rgb(24, 154, 194))
+}
+.historiaria{
+    @include titulos(2rem,rgb(241, 244, 248))
 }

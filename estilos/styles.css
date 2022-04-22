@@ -19,7 +19,7 @@ header {
 .listaactividades li {
   transition: transform .2s; }
   .listaactividades li:hover {
-    color: red; }
+    color: #2ab0e6; }
 
 .title-word {
   animation: color-animation 4s linear infinite; }
@@ -123,6 +123,36 @@ input {
 .paginahistoria .historiatexto {
   font-size: 2rem; }
 
+.historiamagallanes {
+  font-size: 2.7rem;
+  color: #2b5b92;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  transition: transform .2s;
+  text-align: center; }
+  .historiamagallanes:hover {
+    transform: scale(1.1); }
+
+.historiadarwin {
+  font-size: 2.5rem;
+  color: #189ac2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  transition: transform .2s;
+  text-align: center; }
+  .historiadarwin:hover {
+    transform: scale(1.1); }
+
+.historiaria {
+  font-size: 2rem;
+  color: #f1f4f8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  transition: transform .2s;
+  text-align: center; }
+  .historiaria:hover {
+    transform: scale(1.1); }
+
 .avisoimportante {
   background-color: darkgrey; }
   .avisoimportante .mainaviso {
@@ -153,6 +183,26 @@ input {
   flex-direction: row;
   justify-content: center;
   width: 100%; }
+
+.invitacion {
+  font-size: 2.7rem;
+  color: #f1f4f8;
+  text-decoration: none; }
+
+.hoteles {
+  font-size: 2.5rem;
+  color: #2b5b92;
+  text-decoration: none; }
+
+.comida {
+  font-size: 2rem;
+  color: #189ac2;
+  text-decoration: none; }
+
+.listahotelescomida li {
+  transition: transform .2s; }
+  .listahotelescomida li:hover {
+    color: #2ab0e6; }
 
 .zoom {
   transition: transform .2s; }
