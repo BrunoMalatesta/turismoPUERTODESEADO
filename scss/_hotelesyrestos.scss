@@ -2,17 +2,17 @@
 {
     font-size: $fsize;
     color: $color;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .invitacion
 {
-    @include Hotelesycomida(2.7rem, rgb(241, 244, 248))
+    @include Hotelesycomida(2.7rem, rgb(43, 91, 146))
 }
 
 .hoteles
 {
-    @include Hotelesycomida(2.5rem,rgb(43, 91, 146))
+    @include Hotelesycomida(2rem,rgb(24, 154, 194))
 }
 
 .comida{

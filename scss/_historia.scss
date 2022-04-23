@@ -49,6 +49,7 @@ font-size: 2rem;
     text-decoration: underline;
     transition: transform .2s;
     text-align: center;
+    width: auto;
     &:hover 
 {
 transform: scale(1.1); 
@@ -59,8 +60,8 @@ transform: scale(1.1);
     @include titulos(2.7rem,rgb(43, 91, 146))
 }
 .historiadarwin{
-    @include titulos(2.5rem,rgb(24, 154, 194))
+    @include titulos(2.5rem,rgb(18, 116, 146))
 }
 .historiaria{
-    @include titulos(2rem,rgb(241, 244, 248))
+    @include titulos(2rem,rgb(24, 154, 194))
 }

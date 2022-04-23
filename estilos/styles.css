@@ -21,6 +21,10 @@ header {
   .listaactividades li:hover {
     color: #2ab0e6; }
 
+.h1actividades {
+  color: #2b5b92;
+  text-decoration: underline; }
+
 .title-word {
   animation: color-animation 4s linear infinite; }
 
@@ -129,27 +133,30 @@ input {
   font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
-  text-align: center; }
+  text-align: center;
+  width: auto; }
   .historiamagallanes:hover {
     transform: scale(1.1); }
 
 .historiadarwin {
   font-size: 2.5rem;
-  color: #189ac2;
+  color: #127492;
   font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
-  text-align: center; }
+  text-align: center;
+  width: auto; }
   .historiadarwin:hover {
     transform: scale(1.1); }
 
 .historiaria {
   font-size: 2rem;
-  color: #f1f4f8;
+  color: #189ac2;
   font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
-  text-align: center; }
+  text-align: center;
+  width: auto; }
   .historiaria:hover {
     transform: scale(1.1); }
 
@@ -161,9 +168,7 @@ input {
     justify-content: center; }
     .avisoimportante .mainaviso .aviso {
       display: flex;
-      flex-direction: column;
-      border: solid 0.2rem;
-      background-color: darkgrey; }
+      flex-direction: column; }
       .avisoimportante .mainaviso .aviso ol li {
         font-size: 1rem;
         line-height: 3rem;
@@ -171,11 +176,11 @@ input {
         align-self: center;
         margin: 0.2rem; }
     .avisoimportante .mainaviso p {
-      line-height: 4rem;
       font-size: 1rem;
-      text-decoration: underline; }
+      text-decoration: underline;
+      padding-left: 0.2rem; }
     .avisoimportante .mainaviso h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-decoration: underline; }
 
 .mapa {
@@ -186,18 +191,18 @@ input {
 
 .invitacion {
   font-size: 2.7rem;
-  color: #f1f4f8;
-  text-decoration: none; }
+  color: #2b5b92;
+  text-decoration: underline; }
 
 .hoteles {
-  font-size: 2.5rem;
-  color: #2b5b92;
-  text-decoration: none; }
+  font-size: 2rem;
+  color: #189ac2;
+  text-decoration: underline; }
 
 .comida {
   font-size: 2rem;
   color: #189ac2;
-  text-decoration: none; }
+  text-decoration: underline; }
 
 .listahotelescomida li {
   transition: transform .2s; }
@@ -243,32 +248,34 @@ input {
     font-size: 0.6rem;
     line-height: 1.2rem; }
   .navegador a {
-    font-size: 0.5rem; } }
-
-.parallax {
-  width: 100%;
-  min-height: 300px; }
-
-.paginahistoria p {
-  font-size: 0.6rem; }
-
-.tx-darwin {
-  font-size: 0.6rem; }
-
-.tx-ria {
-  font-size: 0.6rem; }
-
-.paginahoteles .tx-hoteles h1 {
-  font-size: 0.9rem; }
-  .paginahoteles .tx-hoteles h1 h2 {
+    font-size: 0.5rem; }
+  .parallax {
+    width: 100%;
+    min-height: 300px; }
+  .paginahistoria p {
+    font-size: 0.6rem; }
+  .tx-darwin {
+    font-size: 0.6rem; }
+  .tx-ria {
+    font-size: 0.6rem; }
+  .paginahoteles .tx-hoteles h1 {
+    font-size: 0.9rem; }
+    .paginahoteles .tx-hoteles h1 h2 {
+      font-size: 0.8rem; }
+    .paginahoteles .tx-hoteles h1 ul {
+      font-size: 0.6rem; }
+  .paginahoteles .tx-restaurantes h2 {
     font-size: 0.8rem; }
-  .paginahoteles .tx-hoteles h1 ul {
-    font-size: 0.6rem; }
-
-.paginahoteles .tx-restaurantes h2 {
-  font-size: 0.8rem; }
-  .paginahoteles .tx-restaurantes h2 ul {
-    font-size: 0.6rem; }
+    .paginahoteles .tx-restaurantes h2 ul {
+      font-size: 0.6rem; }
+  .uno {
+    width: 100%; }
+  .invitacion {
+    font-size: 2rem; }
+  .historiadarwin {
+    font-size: 1.2rem; }
+  .historiaria {
+    font-size: 1.2rem; } }
 
 html {
   min-height: 100%; }
