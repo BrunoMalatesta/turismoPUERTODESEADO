@@ -42,7 +42,7 @@ font-size: 2rem;
 }
 }
 
-@mixin titulos ($fsize, $color){
+@mixin titulos ($fsize, $color,){
     font-size:$fsize ;
     color: $color;
     font-family: 'DM Sans', sans-serif;
@@ -57,7 +57,7 @@ transform: scale(1.1);
 }
 
 .historiamagallanes{
-    @include titulos(2.7rem,rgb(43, 91, 146))
+    @include titulos(2.7rem,rgb(43, 91, 146,))
 }
 .historiadarwin{
     @include titulos(2.5rem,rgb(18, 116, 146))
