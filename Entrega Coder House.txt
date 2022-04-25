@@ -1,0 +1,22 @@
+1)Agrege un @MAP con el each correspondiente en la pagina _contacto.scss para un unos <Anchor> de whatsapp y telegram que te llevan a un chat directo conmigo.
+
+2)Use @EXTENDS para re usar los estilos de la img-ria en las imagenes de darwin y magallanes en la pagina _historia.scss.
+
+3)Agrege un @MIXIN para los <H1> <H2> Y <H3> de la pagina _historia.scss y tambien en la pagina _hotelesyrestos.scss otro mixin.
+
+4) Agrege Keywords a todos los HTML, variando en cada pagina algunas palabras segun su contenido. (Ej:pagina index.html: turismo, pinguinos, Darwin, Corveta Swift, Puerto Deseado, Santa Cruz, toninas, sur, Port Desire, Magallanes, vacaciones)
+                                                                                                  (Ej:pagina historia.html:turismo, pinguinos, Darwin, Magallanes, Puerto Deseado, Santa Cruz, toninas, sur, Port Desire, museo, historia)
+
+5)Description a todos los HTML igual: (Ej:pagina index.html:"Donde la felicidad tiene cara de Pingüino. Descubrí las aventuras que te esperan en la Galápagos de la Patagonia. Viví, Sentí, Disfrutá. Te esperan paisajes hermosos y una basta variedad de fauna, flora e historia autoctona.")
+                                      (Ej:pagina historia.html:"Puerto Deseado, lugar lleno de vida e historia. Tierra donde pasaron grandes hombres y pensadores del mundo.")
+
+6)Agg titulos a cada HTML: <title>Turismo Puerto Deseado</title> (INDEX.HTML)
+                           <title>Turismo Puerto Deseado/ Historia</title> (HISTORIA.HTML)
+                           <title>Turismo Puerto Deseado/ Hoteles y comida</title> (HOTELESYCOMIDA.HTML)
+                           <title>Turismo Puerto Deseado/ Actividades</title> (ACTIVIDADES.HTML)
+                           <title>Turismo Puerto Deseado/ Contacto</title> (CONTACTO.HTML)
+
+
+7)Uso correcto de los  encabezados de cada pagina HTML, estan como corresponden en orden jerarquico y sin repetirce.
+
+8)Esta optmizado a mobile por la pagina de google. dio resultado OK! 
