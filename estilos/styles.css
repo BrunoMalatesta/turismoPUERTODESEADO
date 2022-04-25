@@ -200,13 +200,13 @@ input {
   text-decoration: underline; }
 
 .comida {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #189ac2;
   text-decoration: underline; }
 
-.listahotelescomida li {
+.lista1 li {
   transition: transform .2s; }
-  .listahotelescomida li:hover {
+  .lista1 li:hover {
     color: #2ab0e6; }
 
 .zoom {

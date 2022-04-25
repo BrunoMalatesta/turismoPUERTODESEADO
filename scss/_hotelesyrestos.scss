@@ -14,3 +14,16 @@
 {
     @include Hotelesycomida(2rem,rgb(24, 154, 194))
 }
+
+.comida
+{
+    @include Hotelesycomida(1.8rem,rgb(24, 154, 194))
+}
+.lista1 li
+{
+    transition: transform .2s;
+        &:hover
+        {
+            color: rgb(42, 176, 230);
+}
+}
