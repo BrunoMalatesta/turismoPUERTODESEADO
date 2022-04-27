@@ -7,18 +7,18 @@
 @import "footer";
 @import "mediaqueries";
 
+
+*{
+margin: 0;
+font-family:'DM Sans', sans-serif;
+}
+
 html
 {
 min-height: 100%;
-}
-* {
-margin: 0;
-font-family: 'DM Sans', sans-serif;
-}
-html 
-{     
 font-size: 62,5%; 
 }
+
 body
 {
 background: rgb(120,93,5);

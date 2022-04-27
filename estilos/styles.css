@@ -1,20 +1,14 @@
-header {
-  top: 0;
-  position: absolute;
-  position: sticky;
-  width: 100%; }
-  header a {
-    text-decoration: none; }
-  header .navegador {
-    background-color: #58b1e1;
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem; }
-    header .navegador a {
-      color: aliceblue;
-      margin: 0.5rem; }
-      header .navegador a:hover {
-        color: black; }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(249, 248, 248, 0.9);
+  font-size: 1rem; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(249, 248, 248, 0.9);
+  font-size: 1rem; }
+
+.navbar-light .navbar-brand {
+  color: rgba(249, 248, 248, 0.9);
+  font-size: 1.5rem; }
 
 .listaactividades li {
   transition: transform .2s; }
@@ -71,7 +65,6 @@ header {
   height: 100vh; }
 
 .title {
-  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 8.5vw;
   text-transform: uppercase; }
@@ -130,7 +123,6 @@ input {
 .historiamagallanes {
   font-size: 2.7rem;
   color: #2b5b92;
-  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center;
@@ -141,7 +133,6 @@ input {
 .historiadarwin {
   font-size: 2.5rem;
   color: #127492;
-  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center;
@@ -152,7 +143,6 @@ input {
 .historiaria {
   font-size: 2rem;
   color: #189ac2;
-  font-family: 'DM Sans', sans-serif;
   text-decoration: underline;
   transition: transform .2s;
   text-align: center;
@@ -171,7 +161,6 @@ input {
       flex-direction: column; }
       .avisoimportante .mainaviso .aviso ol li {
         font-size: 1rem;
-        line-height: 3rem;
         display: flex;
         align-self: center;
         margin: 0.2rem; }
@@ -277,14 +266,12 @@ input {
   .historiaria {
     font-size: 1.2rem; } }
 
-html {
-  min-height: 100%; }
-
 * {
   margin: 0;
   font-family: 'DM Sans', sans-serif; }
 
 html {
+  min-height: 100%;
   font-size: 62,5%; }
 
 body {

@@ -45,7 +45,6 @@ font-size: 2rem;
 @mixin titulos ($fsize, $color,){
     font-size:$fsize ;
     color: $color;
-    font-family: 'DM Sans', sans-serif;
     text-decoration: underline;
     transition: transform .2s;
     text-align: center;
