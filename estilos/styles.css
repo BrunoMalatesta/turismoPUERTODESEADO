@@ -1,14 +1,11 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(249, 248, 248, 0.9);
-  font-size: 1rem; }
+  color: rgba(249, 248, 248, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(249, 248, 248, 0.9);
-  font-size: 1rem; }
+  color: rgba(249, 248, 248, 0.9); }
 
 .navbar-light .navbar-brand {
-  color: rgba(249, 248, 248, 0.9);
-  font-size: 1.5rem; }
+  color: rgba(249, 248, 248, 0.9); }
 
 .listaactividades li {
   transition: transform .2s; }
@@ -23,22 +20,22 @@
   animation: color-animation 4s linear infinite; }
 
 .title-word-1 {
-  --color-1: #fdfdfd;
+  --color-1: #9b9a9a;
   --color-2: #047db1;
   --color-3: #000000; }
 
 .title-word-2 {
-  --color-1: #fdfdfd;
+  --color-1: #9b9a9a;
   --color-2: #047db1;
   --color-3: #000000; }
 
 .title-word-3 {
-  --color-1: #fdfdfd;
+  --color-1: #9b9a9a;
   --color-2: #047db1;
   --color-3: #000000; }
 
 .title-word-4 {
-  --color-1: #fdfdfd;
+  --color-1: #9b9a9a;
   --color-2: #047db1;
   --color-3: #000000; }
 
@@ -205,11 +202,13 @@ input {
 
 @media screen and (max-width: 1023px) {
   .paginaprincipal {
-    background-color: #dfe5e9; }
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
     .paginaprincipal .avisoimportante {
       justify-content: center; }
   .paginahistoria {
-    background-color: #dfe5e9; }
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
     .paginahistoria .tx-magallanes h1 {
       font-size: 1.2rem; }
       .paginahistoria .tx-magallanes h1 p {
@@ -219,11 +218,17 @@ input {
     .paginahistoria .tx-ria {
       font-size: 0.8rem; }
   .paginahoteles {
-    background-color: #dfe5e9; }
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
   .paginaactividades {
-    background-color: #dfe5e9; }
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
   .paginacontacto {
-    background-color: #dfe5e9; } }
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); } }
+
+.navbar-light .navbar-brand {
+  font-size: 1rem; }
 
 @media screen and (max-width: 767px) {
   .paginaprincipal .mapa {
@@ -236,8 +241,6 @@ input {
   .paginaprincipal .avisoimportante ol li {
     font-size: 0.6rem;
     line-height: 1.2rem; }
-  .navegador a {
-    font-size: 0.5rem; }
   .parallax {
     width: 100%;
     min-height: 300px; }
@@ -275,8 +278,8 @@ html {
   font-size: 62,5%; }
 
 body {
-  background: #785d05;
-  background: linear-gradient(0deg, #785d05 0%, #ffd62d 100%); }
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #e7e7ed 0%, #f8f9ff 32%, #128198 100%); }
 
 .parallax {
   background-attachment: fixed;
