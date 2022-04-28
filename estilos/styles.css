@@ -274,6 +274,7 @@ body {
   background: linear-gradient(90deg, #020024 0%, #e7e7ed 0%, #f8f9ff 32%, #128198 100%); }
 
 .parallax {
+  background-attachment: fixed;
   width: 100%;
   background-position-x: center;
   background-repeat: no-repeat;
