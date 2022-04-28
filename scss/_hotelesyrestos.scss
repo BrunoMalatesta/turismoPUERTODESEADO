@@ -12,12 +12,12 @@
 
 .hoteles
 {
-    @include Hotelesycomida(2rem,#2b5b92)
+    @include Hotelesycomida(2rem,rgb(43, 91, 146))
 }
 
 .comida
 {
-    @include Hotelesycomida(1.8rem,#2b5b92)
+    @include Hotelesycomida(1.8rem,rgb(43, 91, 146))
 }
 .lista1 li
 {
