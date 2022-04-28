@@ -6,25 +6,14 @@ background-color: darkgrey;
 width: 100%;
 display: flex;
 justify-content: center;
-.aviso
-{
-display: flex;
-flex-direction: column;
-    ol li
-{
-font-size: 1rem;
-display: flex;
-align-self: center;
-margin: 0.2rem;
-}
-}
-    p
+
+p
 {
 font-size: 1rem;
 text-decoration: underline;
 padding-left: 0.2rem;
 }
-    h3
+h3
 {
 font-size: 1.5rem;
 text-decoration: underline;
