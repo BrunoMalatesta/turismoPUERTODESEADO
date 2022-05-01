@@ -1,30 +1,30 @@
 @mixin Hotelesycomida ($fsize,$color)
 {
-    font-size: $fsize;
-    color: $color;
-    text-decoration: underline;
+font-size: $fsize;
+color: $color;
+text-decoration: underline;
 }
 
 .invitacion
 {
-    @include Hotelesycomida(2.7rem, rgb(43, 91, 146))
+@include Hotelesycomida(2.7rem, rgb(43, 91, 146))
 }
 
 .hoteles
 {
-    @include Hotelesycomida(2rem,rgb(43, 91, 146))
+@include Hotelesycomida(2rem,rgb(43, 91, 146))
 }
 
 .comida
 {
-    @include Hotelesycomida(1.8rem,rgb(43, 91, 146))
+@include Hotelesycomida(1.8rem,rgb(43, 91, 146))
 }
 .lista1 li
 {
-    transition: transform .2s;
-        &:hover
-        {
-            color: rgb(42, 176, 230);
+transition: transform .2s;
+    &:hover
+    {
+        color: rgb(42, 176, 230);
 }
 }
 
