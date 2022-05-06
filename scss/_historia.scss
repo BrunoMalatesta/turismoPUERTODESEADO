@@ -32,10 +32,11 @@ text-align: justify;
 }
 
 
-@mixin titulos ($fsize, $color,)
+@mixin titulos ($fsize, $color,$pt)
 {
     font-size:$fsize ;
     color: $color;
+    padding-top: $pt;
     text-decoration: none;
     transition: transform .2s;
     text-align: center;
@@ -48,13 +49,25 @@ transform: scale(1.1);
 
 .historiamagallanes
 {
-@include titulos(2rem,rgb(43, 91, 146,))
+@include titulos(2rem,rgb(43, 91, 146,),2rem)
 }
 .historiadarwin
 {
-@include titulos(2rem,rgb(18, 116, 146))
+@include titulos(2rem,rgb(18, 116, 146),3rem)
 }
 .historiaria
 {
-@include titulos(2rem,rgb(24, 154, 194))
+@include titulos(2rem,rgb(24, 154, 194),4rem)
+}
+
+.dibujodarwin
+{
+padding-top: 1rem;
+padding-bottom:3rem;
+}
+
+.sustituto
+{
+    padding-top: 3rem;
+    padding-bottom:3rem;
 }

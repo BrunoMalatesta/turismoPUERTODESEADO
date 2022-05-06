@@ -120,6 +120,7 @@ img {
 .historiamagallanes {
   font-size: 2rem;
   color: #2b5b92;
+  padding-top: 2rem;
   text-decoration: none;
   transition: transform .2s;
   text-align: center;
@@ -130,6 +131,7 @@ img {
 .historiadarwin {
   font-size: 2rem;
   color: #127492;
+  padding-top: 3rem;
   text-decoration: none;
   transition: transform .2s;
   text-align: center;
@@ -140,12 +142,21 @@ img {
 .historiaria {
   font-size: 2rem;
   color: #189ac2;
+  padding-top: 4rem;
   text-decoration: none;
   transition: transform .2s;
   text-align: center;
   width: auto; }
   .historiaria:hover {
     transform: scale(1.1); }
+
+.dibujodarwin {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+
+.sustituto {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 .avisoimportante {
   background-color: #defa8a; }
