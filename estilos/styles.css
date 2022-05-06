@@ -7,6 +7,11 @@
 .navbar-light .navbar-brand {
   color: rgba(249, 248, 248, 0.9); }
 
+.mejoresactividades {
+  font-size: 2rem;
+  color: #2b5b92;
+  text-decoration: none; }
+
 .title-word {
   animation: color-animation 4s linear infinite; }
 
@@ -93,34 +98,26 @@ input {
   text-decoration: none;
   text-align: center; }
 
-.paginahistoria main ul {
-  line-height: 2rem; }
-
-.paginahistoria .img--ria, .paginahistoria .img-magallanes, .paginahistoria .img-darwin {
+.img--ria, .img-magallanes, .img-darwin {
   filter: grayscale(100%);
   align-self: center;
   display: flex;
   justify-content: center; }
-  .paginahistoria .img--ria:hover, .paginahistoria .img-magallanes:hover, .paginahistoria .img-darwin:hover {
+  .img--ria:hover, .img-magallanes:hover, .img-darwin:hover {
     filter: none; }
 
-.paginahistoria img {
+img {
   max-width: 100%; }
 
-.paginahistoria .textohistoria {
-  font-size: 2rem; }
-
-.paginahistoria .phistoria {
-  font-size: small;
-  padding: 0.6rem; }
-
-.paginahistoria .historiatexto {
-  font-size: 2rem; }
+.phistoria {
+  font-size: 16px;
+  padding: 0.2rem;
+  text-align: justify; }
 
 .historiamagallanes {
-  font-size: 2.7rem;
+  font-size: 2rem;
   color: #2b5b92;
-  text-decoration: underline;
+  text-decoration: none;
   transition: transform .2s;
   text-align: center;
   width: auto; }
@@ -128,9 +125,9 @@ input {
     transform: scale(1.1); }
 
 .historiadarwin {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #127492;
-  text-decoration: underline;
+  text-decoration: none;
   transition: transform .2s;
   text-align: center;
   width: auto; }
@@ -140,7 +137,7 @@ input {
 .historiaria {
   font-size: 2rem;
   color: #189ac2;
-  text-decoration: underline;
+  text-decoration: none;
   transition: transform .2s;
   text-align: center;
   width: auto; }
@@ -264,23 +261,24 @@ input {
   .paginahistoria {
     background: #020024;
     background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
-    .paginahistoria .tx-magallanes h1 {
-      font-size: 1.2rem; }
-      .paginahistoria .tx-magallanes h1 p {
-        font-size: 0.8rem; }
-    .paginahistoria .tx-darwin {
+    .paginahistoria p {
       font-size: 0.8rem; }
-    .paginahistoria .tx-ria {
-      font-size: 0.8rem; }
-  .paginahoteles {
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
-  .paginaactividades {
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
-  .paginacontacto {
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); } }
+  .tx-darwin {
+    font-size: 0.8rem; }
+  .tx-ria {
+    font-size: 0.8rem; } }
+
+.paginahoteles {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
+
+.paginaactividades {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
+
+.paginacontacto {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #129398 0%, #f8fffd 64%, #e7e7ed 100%); }
 
 .navbar-light .navbar-brand {
   font-size: 1rem; }

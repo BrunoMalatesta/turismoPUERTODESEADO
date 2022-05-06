@@ -1,9 +1,4 @@
-.paginahistoria
-{
-main ul
-{
-line-height: 2rem;
-}
+
 .img--ria{
 filter: grayscale(100%);
 align-self: center;
@@ -28,24 +23,20 @@ max-width: 100%;
 @extend .img--ria
 }
 
-.textohistoria{
-font-size: 2rem;
-}
 .phistoria
 {
-font-size: small;
-padding: 0.6rem;
-}
-.historiatexto
-{
-font-size: 2rem;
-}
+font-size: 16px;
+padding: 0.2rem;
+text-align: justify;
+
 }
 
-@mixin titulos ($fsize, $color,){
+
+@mixin titulos ($fsize, $color,)
+{
     font-size:$fsize ;
     color: $color;
-    text-decoration: underline;
+    text-decoration: none;
     transition: transform .2s;
     text-align: center;
     width: auto;
@@ -55,12 +46,15 @@ transform: scale(1.1);
 }
 }
 
-.historiamagallanes{
-@include titulos(2.7rem,rgb(43, 91, 146,))
+.historiamagallanes
+{
+@include titulos(2rem,rgb(43, 91, 146,))
 }
-.historiadarwin{
-@include titulos(2.5rem,rgb(18, 116, 146))
+.historiadarwin
+{
+@include titulos(2rem,rgb(18, 116, 146))
 }
-.historiaria{
+.historiaria
+{
 @include titulos(2rem,rgb(24, 154, 194))
 }
