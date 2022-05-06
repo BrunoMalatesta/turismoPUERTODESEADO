@@ -180,7 +180,9 @@ img {
   text-decoration: none; }
 
 .mover {
-  margin-left: 50px; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .hover-img {
   background-color: rgba(252, 252, 252, 0.259);
@@ -301,8 +303,6 @@ img {
       font-size: 16px; }
   .uno {
     width: 100%; }
-  .invitacion {
-    font-size: 18px; }
   .historiadarwin {
     font-size: 16px; }
   .historiaria {
