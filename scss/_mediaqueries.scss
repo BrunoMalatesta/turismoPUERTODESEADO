@@ -2,8 +2,6 @@
 {
 .paginaprincipal
 {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,147,152,1) 0%, rgba(248,255,253,1) 64%, rgba(231,231,237,1) 100%);
 .avisoimportante
 {
 justify-content: center;
@@ -11,39 +9,24 @@ justify-content: center;
 }
 .paginahistoria
 {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,147,152,1) 0%, rgba(248,255,253,1) 64%, rgba(231,231,237,1) 100%);
 p
 {
-font-size: 0.8rem;
+font-size: 16px;
 }
 }
 .tx-darwin
 {
-font-size: 0.8rem;
+font-size: 16px;
 }
 .tx-ria
 {
-font-size: 0.8rem;
+font-size: 16px;
 }
-}
-.paginahoteles
-{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,147,152,1) 0%, rgba(248,255,253,1) 64%, rgba(231,231,237,1) 100%);
-}
-.paginaactividades
-{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,147,152,1) 0%, rgba(248,255,253,1) 64%, rgba(231,231,237,1) 100%);
-}
-.paginacontacto {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,147,152,1) 0%, rgba(248,255,253,1) 64%, rgba(231,231,237,1) 100%);
 }
 
+
 .navbar-light .navbar-brand {
-font-size: 1rem;
+font-size: 16px;
 }
 @media screen and (max-width: 767px)
 {
@@ -57,16 +40,16 @@ width: 100%;
 {
 h3
 {
-font-size: 0.8rem;
+font-size: 16px;
 }
 p 
 {
-font-size: 0.6rem;
+font-size: 16px;
 line-height: 1.4rem;
 }
 ol li
 {
-font-size: 0.6rem;
+font-size: 16px;
 line-height: 1.2rem;
 }
 }
@@ -81,38 +64,38 @@ min-height: 300px;
 {
 p
 {
-font-size: 0.6rem;
+font-size: 16px;
 }
 }
 .tx-darwin
 {
-font-size: 0.6rem;
+font-size: 16px;
 }
 .tx-ria
 {
-font-size: 0.6rem;
+font-size: 16px;
 }
 
 .paginahoteles
 {
 .tx-hoteles h1
 {
-font-size: 0.9rem;
+font-size: 16px;
 h2
 {
-font-size: 0.8rem;
+font-size: 16px;
 }
 ul
 {
-font-size: 0.6rem;
+font-size: 16px;
 }
 }
 .tx-restaurantes h2
 {
-font-size: 0.8rem;
+font-size: 16px;
 ul
 {
-font-size: 0.6rem;
+font-size: 16px;
 }
 }
 }
@@ -123,15 +106,16 @@ width: 100%;
 
 .invitacion
 {
-font-size: 2rem;
+font-size: 18px;
 }
 
 .historiadarwin
 {
-font-size: 1.2rem;
+font-size: 16px;
 }
 .historiaria
 {
-font-size: 1.2rem;
+font-size: 16px;
 }
 }
+
