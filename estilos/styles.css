@@ -57,7 +57,8 @@
   display: grid;
   place-items: center;
   text-align: center;
-  height: 100vh; }
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
 
 .title {
   font-weight: 800;
@@ -164,6 +165,22 @@ img {
   flex-direction: row;
   justify-content: center;
   width: 100%; }
+
+.carta {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem; }
+
+.imgcarta {
+  width: 100;
+  height: 50%; }
+
+.videoindex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem; }
 
 .hoteles {
   display: flex;
