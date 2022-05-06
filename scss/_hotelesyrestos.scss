@@ -5,21 +5,24 @@ color: $color;
 text-decoration: none;
 }
 
-.invitacion
-{
-@include Hotelesycomida(2.7rem, rgb(43, 91, 146))
-}
-
 .hoteles
 {
+display: flex;
+justify-content: center;
 @include Hotelesycomida(2rem,rgb(43, 91, 146))
 }
 
 .comida
 {
+display: flex;
+justify-content: center;
 @include Hotelesycomida(1.8rem,rgb(43, 91, 146))
 }
 
+.mover
+{
+margin-left: 50px;
+}
 
 .hover-img {
     background-color: rgba(252, 252, 252, 0.259);
