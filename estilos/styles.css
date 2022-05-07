@@ -10,7 +10,13 @@
 .mejoresactividades {
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  color: #2b5b92;
+  text-decoration: none; }
+
+.agencias {
+  padding-top: 2rem;
+  font-size: 1.2rem;
   color: #2b5b92;
   text-decoration: none; }
 
