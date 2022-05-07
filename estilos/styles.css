@@ -12,13 +12,24 @@
   justify-content: center;
   font-size: 1.2rem;
   color: #2b5b92;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
-.agencias {
-  padding-top: 2rem;
-  font-size: 1.2rem;
-  color: #2b5b92;
-  text-decoration: none; }
+.agenciacolor {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: #defa8a; }
+  .agenciacolor .agencias {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #2b5b92;
+    text-decoration: none;
+    text-align: center; }
+  .agenciacolor a {
+    text-align: center; }
 
 .title-word {
   animation: color-animation 4s linear infinite; }

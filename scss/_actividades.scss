@@ -5,12 +5,28 @@ justify-content: center;
 font-size: 1.2rem;
 color: #2b5b92;
 text-decoration: none;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
+
+
+.agenciacolor
+{
+margin-right: auto;
+margin-left: auto;
+margin-top: 4rem;
+margin-bottom: 4rem;
+background-color: rgb(222, 250, 138);
 
 .agencias
 {
-    padding-top: 2rem;
-    font-size: 1.2rem;
-    color: #2b5b92;
-    text-decoration: none;
+padding-bottom: 1.5rem;
+font-size: 1.2rem;
+color: #2b5b92;
+text-decoration: none;
+text-align: center;
+}
+a{
+text-align: center;
+}
 }
