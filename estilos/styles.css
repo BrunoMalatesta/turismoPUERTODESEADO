@@ -355,7 +355,9 @@ img {
   .historiadarwin {
     font-size: 16px; }
   .historiaria {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .zoom {
+    width: 15%; } }
 
 * {
   margin: 0;
