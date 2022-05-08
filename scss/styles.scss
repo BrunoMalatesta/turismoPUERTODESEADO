@@ -27,13 +27,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(231,231,237,1) 0%, rg
 
 .parallax
 {
-background-attachment: fixed;
 width: 100%;
 background-position-x: center;
 background-repeat: no-repeat;
 background-size: cover;
 min-height: 400px;
 }
+
 .parallax--img1
 {
 background-image:url("../imagenes/parallaxescudo1.jpg") ;
@@ -50,4 +50,9 @@ min-height: 360px;
 }
 .parallax--img4
 {background-image:url("../imagenes/actividadesbote.jpg" );min-height: 400px;
+}
+
+a {
+    color: #0dcaf0;
+    text-decoration: underline;
 }
